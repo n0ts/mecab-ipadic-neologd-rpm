@@ -42,3 +42,8 @@ bin/install-mecab-ipadic-neologd --prefix %{buildroot}/%{target_prefix} --asuser
 %files
 %defattr(-,root,root,-)
 %{_libdir}/mecab/dic/ipadic-neologd
+
+
+%changelog
+* Fri May 08 2015 Naoya Nakazawa <me@n0ts.org> 20150501-1
+- initial version 20150501
